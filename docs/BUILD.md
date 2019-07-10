@@ -12,12 +12,12 @@ The project is built with Gradle and needs to be configured in the following env
  
  
 ## How to build hot-wallet
-1. git clone https://github.com/BankLedger/safe/safe-hot-wallet.git
+1. git clone https://github.com/BankLedger/safegem-hot-wallet
 2. cd safe-hot-wallet
 3. ./gradlew build
 
 ## How to build cold-wallet
-1. git clone https://github.com/BankLedger/safe/safe-cold-wallet.git
+1. git clone https://github.com/BankLedger/safegem-cold-wallet
 2. cd safe-cold-wallet
 3. ./gradlew build
 
