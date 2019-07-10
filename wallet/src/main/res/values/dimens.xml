@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- 公用线 -->
+    <dimen name="dimen_1px">1px</dimen>
+    
+    <!-- 公用 DP-->
+    <dimen name="dimen_0dp">0dp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_17dp">17dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_19dp">19dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_22dp">22dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_25dp">25dp</dimen>
+    <dimen name="dimen_28dp">28dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_34dp">34dp</dimen>
+    <dimen name="dimen_36dp">36dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_44dp">44dp</dimen>
+    <dimen name="dimen_46dp">46dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_52dp">52dp</dimen>
+    <dimen name="dimen_54dp">54dp</dimen>
+    <dimen name="dimen_58dp">58dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="dimen_64dp">64dp</dimen>
+    <dimen name="dimen_76dp">76dp</dimen>
+    <dimen name="dimen_80dp">80dp</dimen>
+    <dimen name="dimen_82dp">82dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+    <dimen name="dimen_110dp">110dp</dimen>
+    <dimen name="dimen_150dp">150dp</dimen>
+    <dimen name="dimen_180dp">180dp</dimen>
+    <dimen name="dimen_210dp">210dp</dimen>
+    <dimen name="dimen_250dp">250dp</dimen>
+    <dimen name="dimen_280dp">280dp</dimen>
+
+
+    <!-- 公用SP 用于字体 -->
+    <dimen name="public_left_icon_size">22dp</dimen>
+
+    <!-- 公用SP 用于字体 -->
+    <dimen name="font_8sp">8sp</dimen>
+    <dimen name="font_10sp">10sp</dimen>
+    <dimen name="font_12sp">12sp</dimen>
+    <dimen name="font_13sp">13sp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+    <dimen name="font_15sp">15sp</dimen>
+    <dimen name="font_16sp">16sp</dimen>
+    <dimen name="font_17sp">17sp</dimen>
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="font_19sp">19sp</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="font_22sp">22sp</dimen>
+    <dimen name="font_25sp">25sp</dimen>
+    <dimen name="font_28sp">28sp</dimen>
+    <dimen name="font_30sp">30sp</dimen>
+    <dimen name="font_45sp">45sp</dimen>
+
+    <!--安全升级界面-->
+    <dimen name="safe_upgrade_bluetooth_anmation_top_dimens">80dip</dimen>
+    <dimen name="safe_upgrade_pb_top_dimens">55dip</dimen>
+    <dimen name="safe_upgrade_pb_left_right_dimens">20dip</dimen>
+    <dimen name="safe_upgrade_tip_top_dimens">110dip</dimen>
+    <dimen name="safe_upgrade_no_device_tip_dimens">14sp</dimen>
+    <dimen name="safe_upgrade_connecting_tip_dimens">14sp</dimen>
+
+    <!--绑定热端设备-->
+    <dimen name="bind_device_add_top_dimens">10dip</dimen>
+    <dimen name="bind_device_add_left_dimens">15dip</dimen>
+    <dimen name="bind_device_add_height_dimens">45dip</dimen>
+    <dimen name="bind_device_add_size_dimens">16sp</dimen>
+    <dimen name="bind_device_mac_address_height_dimens">45dip</dimen>
+    <dimen name="bind_device_mac_address_dimens">16sp</dimen>
+    <dimen name="bind_device_mac_address_top_dimens">20dip</dimen>
+    <dimen name="bind_device_mac_address_left_dimens">15dip</dimen>
+</resources>

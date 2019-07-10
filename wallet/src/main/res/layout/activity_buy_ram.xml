@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_14dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingBottom="@dimen/dimen_14dp">
+
+        <ImageView
+            android:id="@+id/iv_currency_icon"
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_currency_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="EOS"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <Button
+            android:id="@+id/bt_sign_param"
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/public_button_shape"
+            android:gravity="center"
+            android:text="@string/sync"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_12dp">
+
+        <RadioButton
+            android:id="@+id/rbtn_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="5KB"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rbtn_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10KB"
+            android:textColor="@color/text_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_12dp">
+
+        <RadioButton
+            android:id="@+id/rbtn_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="20KB"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rbtn_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/eos_define"
+            android:textColor="@color/text_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_8dp"
+        android:paddingTop="@dimen/dimen_12dp"
+        android:paddingRight="@dimen/dimen_8dp"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eos_buy_ram"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/font_14sp" />
+
+        <EditText
+            android:id="@+id/edit_ram"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/eos_buy_ram_tips"
+            android:inputType="number"
+            android:maxLength="12"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:textSize="@dimen/font_14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KB"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/font_14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_buy"
+        style="@style/public_circle_button_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen_36dp"
+        android:layout_marginTop="@dimen/dimen_36dp"
+        android:layout_marginRight="@dimen/dimen_36dp"
+        android:text="@string/eos_confirm_buy" />
+
+</LinearLayout>

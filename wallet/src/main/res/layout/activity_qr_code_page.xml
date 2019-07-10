@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:textColor="@color/colorPrimary" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_250dp" />
+
+    <TextView
+        android:id="@+id/tv_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_prev"
+            style="@style/public_circle_button_style"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/dimen_4dp"
+            android:text="@string/previous_page" />
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/public_circle_button_style"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_40dp"
+            android:padding="@dimen/dimen_4dp"
+            android:text="@string/next_page" />
+    </LinearLayout>
+
+</LinearLayout>

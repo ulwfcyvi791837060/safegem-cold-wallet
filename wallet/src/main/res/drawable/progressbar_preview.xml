@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <!--默认颜色-->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/safe_upgrade_bg_colors" />
+        </shape>
+    </item>
+    <!--进度颜色-->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/safe_upgrade_progress_colors" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

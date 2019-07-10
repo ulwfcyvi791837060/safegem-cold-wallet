@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#2A2E3C</color>
+    <color name="colorPrimaryDark">#2A2E3C</color>
+    <color name="colorAccent">#2A2E3C</color>
+
+    <color name="public_background">#EFEFEF</color><!--页面默认背景色 -->
+    <color name="text_color_red">#FFD50302</color><!--红色字体颜色-->
+    <color name="public_gray">#FFDCDCDC</color><!--发送记录顶部灰色背景-->
+    <color name="fg_less_significant">#ff666666</color>
+
+    <color name="text_color_blue">#FF009FE9</color><!--蓝 -->
+    <color name="ripple_light">#40ffffff</color>
+
+
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="white_b">#70ffffff</color><!--白色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="black_b">#90000000</color><!--黑色 -->
+    <color name="gray">#333333</color><!-- 浅灰色 -->
+    <color name="trans">#00000000</color><!--透明 -->
+    <color name="trans_b">#70000000</color> <!-- 半透明 -->
+    <color name="blue">#ff33b5e5</color><!-- 蓝色 -->
+    <color name="orange">#fff3a751</color><!-- 黄色 -->
+
+    <color name="bg">#f5f5f5</color><!--背景色 -->
+    <color name="line">#d2d2d2</color><!-- 线条色 -->
+    <color name="dialog_line">#f2f2f2</color><!-- 线条色 -->
+    <color name="text_color">#666666</color><!-- 文本色 -->
+    <color name="summary_color">#9a9a9a</color><!-- 概要色 -->
+    <color name="text_hint_color">#b5b5b5</color> <!-- 提示色 -->
+    <color name="item_selected">#7a7a7a</color> <!-- 项选中 -->
+
+    <color name="scan_mask">#60000000</color>
+    <color name="scan_result_view">#b0000000</color>
+    <color name="scan_result_dots">#c099cc00</color>
+
+    <!--安全升级-->
+    <color name="safe_upgrade_bg_colors">#D7D7D7</color>
+    <color name="safe_upgrade_progress_colors">#01B1E3</color>
+    <color name="safe_upgrade_no_device_tip_colors">#000000</color>
+    <color name="safe_upgrade_add_device_colors">#169BD5</color>
+    <color name="safe_upgrade_connecting_tip_colors">#000000</color>
+
+    <!--绑定热端设备-->
+    <color name="bind_device_add_bg_colors">#FFFFFF</color>
+    <color name="bind_device_add_text_colors">#0000FF</color>
+    <color name="bind_device_mac_address_colors">#000000</color>
+    <color name="bind_device_mac_address_bg_colors">#FFFFFF</color>
+</resources>

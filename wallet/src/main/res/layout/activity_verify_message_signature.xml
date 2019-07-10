@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_currency_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_12dp">
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/sign_address"
+            android:textSize="@dimen/font_14sp" />
+
+        <ImageView
+            android:id="@+id/iv_scan_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_6dp"
+            android:src="@mipmap/scan_qr" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_80dp"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_12dp">
+
+        <EditText
+            android:id="@+id/et_original_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="@string/original_message"
+            android:textSize="@dimen/font_14sp" />
+
+        <ImageView
+            android:id="@+id/iv_scan_original_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_6dp"
+            android:src="@mipmap/scan_qr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_signed_message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_12dp">
+
+        <EditText
+            android:id="@+id/et_signed_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="@string/signed_message"
+            android:textSize="@dimen/font_14sp" />
+
+        <ImageView
+            android:id="@+id/iv_scan_signed_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_6dp"
+            android:src="@mipmap/scan_qr" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_verify"
+        style="@style/public_circle_button_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen_60dp"
+        android:layout_marginRight="@dimen/dimen_60dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:text="@string/verify" />
+</LinearLayout>

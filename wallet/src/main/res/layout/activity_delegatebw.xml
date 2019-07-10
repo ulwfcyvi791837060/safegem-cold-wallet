@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_14dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_14dp">
+
+        <ImageView
+            android:id="@+id/iv_currency_icon"
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_currency_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="EOS"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <Button
+            android:id="@+id/bt_sign_param"
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/public_button_shape"
+            android:gravity="center"
+            android:text="@string/sync"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_8dp"
+        android:layout_marginRight="@dimen/dimen_8dp"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:paddingTop="@dimen/dimen_12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eos_dele_cpu"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/font_14sp" />
+
+        <EditText
+            android:id="@+id/edit_cpu"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="@string/eos_input_amount"
+            android:text="0.5"
+            android:inputType="numberDecimal"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:textSize="@dimen/font_14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EOS"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/font_14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_8dp"
+        android:layout_marginRight="@dimen/dimen_8dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:paddingTop="@dimen/dimen_12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eos_dele_net"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/font_14sp" />
+
+        <EditText
+            android:id="@+id/edit_net"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="@string/eos_input_amount"
+            android:text="0.5"
+            android:inputType="numberDecimal"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:textSize="@dimen/font_14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EOS"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/font_14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/dimen_6dp"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/eos_delegatebw_tips"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/font_14sp" />
+
+    <Button
+        android:id="@+id/delegatebw"
+        style="@style/public_circle_button_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen_36dp"
+        android:layout_marginRight="@dimen/dimen_36dp"
+        android:layout_marginTop="@dimen/dimen_36dp"
+        android:text="@string/eos_confrim_dele" />
+
+</LinearLayout>

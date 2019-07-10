@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_currency_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_14dp"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen_12dp"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9999.99"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_25sp" />
+
+            <TextView
+                android:id="@+id/tv_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_12dp"
+                android:text="btc"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_refresh_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:background="@drawable/public_text_shape"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/dimen_6dp"
+            android:paddingTop="@dimen/dimen_6dp"
+            android:paddingLeft="@dimen/dimen_22dp"
+            android:paddingRight="@dimen/dimen_22dp"
+            android:text="@string/refresh_balance"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@+id/ll_currency_detail"
+        android:paddingTop="@dimen/dimen_10dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_send"
+            style="@style/public_right_button_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/wallet_transfer" />
+
+        <Button
+            android:id="@+id/bt_receive"
+            style="@style/public_white_button_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/wallet_receive" />
+
+    </LinearLayout>
+</RelativeLayout>

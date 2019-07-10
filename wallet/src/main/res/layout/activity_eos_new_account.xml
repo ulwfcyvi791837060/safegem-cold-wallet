@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp">
+
+           <com.bankledger.safecold.ui.widget.AutoSplitTextView
+               android:id="@+id/tv_common_tips"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/dimen_10dp"
+               android:layout_marginBottom="@dimen/dimen_10dp"
+               android:padding="@dimen/dimen_12dp"/>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/dimen_12dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_account_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edit_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/dimen_48dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:padding="@dimen/dimen_8dp"
+                android:textSize="@dimen/font_15sp"
+                android:textColor="@color/text_color"
+                android:digits="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ12345"
+                android:maxLength="12"
+                android:background="@drawable/button_gray_selector"/>
+
+            <TextView
+                android:id="@+id/tv_account_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:textSize="@dimen/font_14sp"
+                android:textColor="@color/summary_color"/>
+
+            <TextView
+                android:id="@+id/tv_owner_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/button_gray_selector">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/dimen_48dp"
+                    android:layout_marginRight="@dimen/dimen_48dp"
+                    android:padding="@dimen/dimen_8dp"
+                    android:textSize="@dimen/font_15sp"
+                    android:textColor="@color/text_color"
+                    android:background="@null"/>
+
+                <ImageView
+                    android:id="@+id/iv_scan_owner"
+                    android:layout_width="@dimen/dimen_40dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/dimen_8dp"
+                    android:src="@mipmap/scan_qr" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_active_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/button_gray_selector">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_active"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="@dimen/dimen_48dp"
+                    android:layout_marginRight="@dimen/dimen_48dp"
+                    android:padding="@dimen/dimen_8dp"
+                    android:textSize="@dimen/font_15sp"
+                    android:textColor="@color/text_color"
+                    android:background="@null"/>
+
+                <ImageView
+                    android:id="@+id/iv_scan_active"
+                    android:layout_width="@dimen/dimen_40dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/dimen_8dp"
+                    android:src="@mipmap/scan_qr" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_scan_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:textSize="@dimen/font_14sp"
+                android:textColor="@color/summary_color"/>
+
+            <Button
+                android:id="@+id/bt_create"
+                style="@style/public_circle_button_style"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/dimen_36dp"
+                android:layout_marginRight="@dimen/dimen_36dp"
+                android:layout_marginTop="@dimen/dimen_36dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

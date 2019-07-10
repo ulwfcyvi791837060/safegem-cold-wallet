@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_wallet_name"
+        style="@style/title_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.bankledger.safecold.ui.widget.CommonTextWidget
+                android:id="@+id/ctw_wallet_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_12dp"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:background="@color/public_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_monitoring_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:background="@color/public_background"
+                    android:visibility="gone" />
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_public_key_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:background="@color/public_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_many_sign_deal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:background="@color/public_background"
+                    android:visibility="gone" />
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_message_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/ll_sub_message_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/dimen_48dp"
+                        android:layout_marginRight="@dimen/dimen_10dp"
+                        android:background="@color/public_background" />
+
+                    <TextView
+                        android:id="@+id/tv_sign_message"
+                        style="@style/common_item_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dimen_48dp"
+                        android:text="@string/sign_message" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/dimen_48dp"
+                        android:layout_marginRight="@dimen/dimen_10dp"
+                        android:background="@color/public_background" />
+
+                    <TextView
+                        android:id="@+id/tv_verify_message_sign"
+                        style="@style/common_item_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dimen_48dp"
+                        android:text="@string/verify_message_sign" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:background="@color/public_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_40dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:background="@color/public_background" />
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_my_public_key"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:background="@color/public_background" />
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_backups_seed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:background="@color/public_background" />
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_safe_upgrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:background="@color/public_background" />
+
+                <com.bankledger.safecold.ui.widget.CommonTextWidget
+                    android:id="@+id/ctw_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

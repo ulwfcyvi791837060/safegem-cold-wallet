@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.HelpActivity">
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/public_background"
+        app:layout_constraintTop_toBottomOf="@id/ctw_website" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/line1" />
+
+    <ImageView
+        android:id="@+id/iv_qr_code"
+        android:layout_width="@dimen/dimen_180dp"
+        android:layout_height="@dimen/dimen_180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ctw_wechat" />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:text="@string/download_hot_wallet_hint"
+        app:layout_constraintBottom_toTopOf="@id/iv_qr_code"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_safe_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_system_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_restore_factory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="gone"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_user_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+</LinearLayout>

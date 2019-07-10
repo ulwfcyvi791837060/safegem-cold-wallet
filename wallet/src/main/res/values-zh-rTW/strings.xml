@@ -1,0 +1,402 @@
+<resources>
+    <string name="app_name">SafeCold</string>
+
+    <string name="ok">確定</string>
+    <string name="hint_scan">掃一掃</string>
+    <string name="hint_find">對準二維碼掃描</string>
+    <string name="hint_camera_framework_bug">抱歉，相機出現問題，應用沒許可權訪問相機。</string>
+
+    <string name="close">關閉</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">確定</string>
+    <string name="tip">提示</string>
+    <string name="complete">完成</string>
+    <string name="check_all">全選</string>
+    <string name="all_dont_check">全不選</string>
+    <string name="not_data">沒有更多數據...</string>
+
+    <string name="loadmore_loading">載入中</string>
+    <string name="loadmore_footer_end">已經到底了</string>
+    <string name="loadmore_network_error">網路錯誤，點擊重試</string>
+
+    <string name="tab_asset">資產</string>
+    <string name="tab_address">地址薄</string>
+    <string name="tab_mine">我的</string>
+
+    <!-- 我的 -->
+    <string name="wallet_manage">錢包管理</string>
+    <string name="send_record">發送記錄</string>
+    <string name="public_key_book">公開金鑰簿</string>
+    <string name="many_sign_deal">多簽名交易</string>
+    <string name="message_sign">消息簽名</string>
+    <string name="sign_message">簽名消息</string>
+    <string name="verify_message_sign">驗證消息簽名</string>
+    <string name="setting">設置</string>
+    <string name="safe_upgrade">安全升級</string>
+    <string name="help">幫助</string>
+    <string name="sign">簽名</string>
+
+    <!--設置-->
+    <string name="security_setting">安全設置</string>
+    <string name="system_setting">系統設置</string>
+    <string name="restore_factory">恢復出廠設置</string>
+    <string name="restore_factory_warn">恢復出廠設置將清空您錢包的所有資料，請確保您已備份錢包。確認清除？</string>
+    <string name="privacy_policy">隱私政策</string>
+    <string name="user_agreement">使用者協定</string>
+    <string name="safegem_modify">熱端藍牙</string>
+    <string name="fingerprint_setting">指紋設置</string>
+    <string name="gesture_setting">手勢設置</string>
+    <string name="input_message">待簽名消息</string>
+    <string name="original_message">原消息</string>
+    <string name="input_original_message">請輸入原消息</string>
+    <string name="signed_message">已簽名消息</string>
+    <string name="input_signed_message">請輸入已簽名消息</string>
+    <string name="verify">驗證</string>
+    <string name="verify_success">消息驗證成功</string>
+    <string name="verify_fail">消息驗證失敗</string>
+
+    <!--選擇幣種-->
+    <string name="select_currency">選擇幣種</string>
+    <string name="input_keyword_hint">請輸入關鍵字</string>
+    <string name="all">全部</string>
+
+    <string name="input_seed_word">請按順序輸入您備份的種子密碼。</string>
+    <string name="show_seed_qr_code">顯示種子二維碼</string>
+    <string name="check_seed">驗證種子密碼</string>
+    <string name="check_seed_error">種子密碼校驗失敗，請重試。</string>
+
+    <string name="change_password">修改密碼</string>
+    <string name="my_public_key">我的公開金鑰</string>
+    <string name="backups_seed">備份種子密碼</string>
+    <string name="seed_password">種子密碼</string>
+    <string name="wallet_info">錢包綁定</string>
+
+    <string name="pay_to">付給：%s</string>
+    <string name="hint_address_remark">地址備註</string>
+    <string name="payee_address">收款人錢包地址</string>
+    <string name="select_payee_address">請選擇收款人錢包位址。</string>
+    <string name="money">金額</string>
+    <string name="input_money">請輸入轉帳金額。</string>
+    <string name="input_money_limit">轉賬金額需大於%s</string>
+    <string name="not_sufficient_funds_title">餘額不足</string>
+    <string name="not_sufficient_funds">當前%s餘額不足支付該筆交易。若有餘額未同步，請嘗試先從熱錢包同步餘額。</string>
+    <string name="not_sufficient_funds2">計入交易費後超出您的%s餘額</string>
+    <string name="transaction_size_failed">交易構建失敗，交易大小超過上限。</string>
+    <string name="amount_is_too_small">該金額太小了，無法支付。</string>
+    <string name="unknown_abnormal">未知異常</string>
+    <string name="remark">備註</string>
+    <string name="next_step">下一步</string>
+    <string name="last_step">上一步</string>
+
+    <string name="refresh_balance">更新餘額</string>
+    <string name="sync">同步</string>
+    <string name="synchronous_balance">餘額已更新</string>
+    <string name="synchronous_balance_err">非本錢包餘額資訊</string>
+    <string name="view_details">查看詳情 ></string>
+    <string name="send">發送</string>
+    <string name="receive">接收</string>
+
+    <string name="step_1">1</string>
+    <string name="step_2">2</string>
+
+    <string name="receive_amount">收款金額</string>
+
+    <string name="old_password">舊密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="submit_password">確定新密碼</string>
+    <string name="remind_forget_password">忘記密碼，可以導入助記詞重置密碼，</string>
+    <string name="forget_password">忘記密碼</string>
+    <string name="forget_password_link">忘記密碼？</string>
+    <string name="hint_forget_password">很遺憾，忘記密碼意味著錢包丟失，點擊確認後將會清空錢包資料，您可以通過恢復錢包後重新同步錢包資料，也可以重新創建一個新錢包。</string>
+    <string name="import_seed"><u>立即導入</u></string>
+    <string name="old_password_error">舊密碼錯誤，請檢查。</string>
+    <string name="reset_success">密碼修改成功。</string>
+    <string name="hint_old_password">請輸入舊密碼。</string>
+    <string name="hint_new_password">請輸入新密碼。</string>
+    <string name="hint_submit_password">請確認新密碼。</string>
+    <string name="hint_new_password_error">新密碼不一致。</string>
+    <string name="hint_password_error">新舊密碼不能一致。</string>
+    <string name="hint_input_password">請輸入錢包密碼。</string>
+    <string name="submit_input_password">請輸入確認錢包密碼。</string>
+    <string name="input_password_err">錢包密碼不一致。</string>
+    <string name="input_password_length_min">密碼長度至少12位元。</string>
+    <string name="input_password_format_error">密碼格式錯誤。</string>
+    <string name="input_password_contain">密碼需包含字母大小寫及數位。</string>
+
+    <string name="password_error">密碼錯誤，請檢查。</string>
+    <string name="address_err">無效地址，請檢查。</string>
+
+    <string name="wallet_scan">掃碼</string>
+    <string name="wallet_receive">收款</string>
+    <string name="wallet_transfer">轉帳</string>
+    <string name="hide_zero">隱藏零資產幣種</string>
+    <string name="search">搜索</string>
+
+    <string name="scan_qr_code">掃描熱錢包二維碼</string>
+
+    <string name="my_address">我的地址</string>
+    <string name="my_address_title">我的地址-%s</string>
+    <string name="my_address_select">選擇位址-%s</string>
+    <string name="contact_address">連絡人地址</string>
+    <string name="currency_address_count">%d個地址</string>
+
+    <string name="no_alias">沒有備註</string>
+    <string name="monitor">監控</string>
+    <string name="priv_key">私鑰</string>
+    <string name="delete">刪除</string>
+    <string name="add">添加</string>
+    <string name="add_receiver">添加收款人</string>
+    <string name="select_fee">選擇交易費</string>
+    <string name="add_address">添加地址</string>
+    <string name="edit_alias">編輯備註</string>
+
+    <string name="wallet_address">錢包地址</string>
+    <string name="exist_address">該位址已保存，不能重複添加。</string>
+    <string name="exist_address2">該位址為本錢包位址，不能添加。</string>
+    <string name="hint_select_currency">請先選擇幣種。</string>
+    <string name="input_address">請輸入錢包位址。</string>
+    <string name="select_address">請選擇幣種。</string>
+    <string name="please_add_receiver">請添加收款人。</string>
+    <string name="sign_address">簽名地址</string>
+    <string name="input_sign_address">請輸入簽名位址</string>
+
+    <string name="contact_address_detail">連絡人地址-%s</string>
+    <string name="resend">再次發送</string>
+    <string name="delete_contact">刪除連絡人</string>
+    <string name="submit_delete_contact">確認刪除該連絡人。</string>
+    <string name="cant_delete">該位址下存在未花費的%s，不能刪除。</string>
+
+    <string name="input_password">輸入錢包密碼</string>
+    <string name="password">密碼</string>
+    <string name="hint_password">請輸入錢包密碼</string>
+    <string name="hint_password2">請確認錢包密碼</string>
+
+    <string name="max_hdaddress_count">您已擁有%d個位址，不能繼續添加。</string>
+    <string name="select_pay_address">支付地址：%s</string>
+
+    <string name="export">匯出</string>
+    <string name="export_qr_code">匯出二維碼</string>
+    <string name="select_export_currency">請選擇監控幣種</string>
+    <string name="previous_page">上一頁</string>
+    <string name="next_page">下一頁</string>
+    <string name="scan_monitor">請使用熱錢包App掃描二維碼，添加監控。</string>
+    <string name="scan_send">請使用熱錢包App掃描二維碼，發送交易，交易完成後，請同步餘額。</string>
+    <string name="scan_hot">請使用熱錢包App掃描二維碼。</string>
+
+    <string name="not_set">未設置</string>
+    <string name="is_enabled">已啟用</string>
+    <string name="not_enabled">未啟用</string>
+    <string name="gesture_lock">手勢密碼鎖定</string>
+    <string name="create_gesture">創建手勢密碼</string>
+    <string name="set_gesture">設置手勢密碼</string>
+    <string name="create_gesture_explain">您可以創建一個錢包解鎖圖案，這樣他人在拿到您的錢包時，將無法打開錢包。</string>
+    <string name="draw_gesture">繪製解鎖圖案</string>
+    <string name="submit_gesture">確認解鎖圖案</string>
+    <string name="gesture_dot_number">至少連接4個點</string>
+    <string name="gesture_set_success">手勢密碼設置成功</string>
+    <string name="gesture_error">與上次繪製圖案不一致</string>
+    <string name="gesture_error2">解鎖失敗</string>
+    <string name="change_gesture">修改手勢密碼</string>
+    <string name="gesture_error_hint">5次失敗後，需要輸入密碼解鎖。</string>
+    <string name="gesture_error_hint2">連續五次解鎖失敗，需要輸入密碼解鎖。</string>
+    <string name="gesture_error_count">密碼錯誤，還可以再試%d次。</string>
+    <string name="password_unlock">密碼解鎖</string>
+    <string name="set_password">設置錢包密碼</string>
+
+
+    <string name="language">language</string>
+    <string name="chinese">中文</string>
+    <string name="english">English</string>
+
+    <string name="account_create_fail">帳戶創建失敗，請重試。</string>
+    <string name="account_creating">帳戶創建中......</string>
+    <string name="change_seed">換一組</string>
+    <string name="recover">恢復</string>
+
+    <string name="seed_error">錯誤的種子密碼，請重新輸入。</string>
+
+    <string name="restore_wallet">恢復錢包</string>
+    <string name="create_wallet">創建新錢包</string>
+    <string name="input_all_seed">請輸入完整的種子密碼</string>
+    <string name="agree_hint">我已閱讀並同意</string>
+    <string name="agree_content"><u>《使用授權合約》</u></string>
+
+
+    <string name="max_once_send_count">最多添加%d個接收者，不能繼續添加。</string>
+    <string name="send_warn">不正確的%s收款位址</string>
+    <string name="send_warn2">無法識別的收款地址</string>
+    <string name="select_contacts">選擇連絡人</string>
+
+    <string name="scan_result">掃描結果</string>
+
+    <string name="view_set">顯示與亮度</string>
+    <string name="fingerprint_set">指紋</string>
+    <string name="language_set">語言</string>
+    <string name="date_set">日期與時間</string>
+    <string name="vol_set">音量</string>
+
+    <string name="no_fingerprint">未添加指紋，請到系統設置中添加指紋。</string>
+    <string name="fingerprint_error">指紋不匹配，請重試。</string>
+    <string name="cant_send_self">您選擇的位址%s為自己錢包位址，不能進行轉帳。</string>
+
+    <!--安全升級-->
+    <string name="cold_wallet_update">安全升級</string>
+    <string name="cold_wallet_exit">您是否需要退出升級嗎？</string>
+    <string name="cold_wallet_opening_bluetooth">正在打開藍牙...</string>
+    <string name="cold_wallet_bluetooth_connected">正在更新冷端軟件，請稍等…</string>
+    <string name="cold_wallet_bluetooth_disconnected">連接已斷開</string>
+    <string name="cold_wallet_bluetooth_connection_failure">藍牙連接失敗</string>
+    <string name="cold_wallet_md5_not_correct">最新版本校驗不正確不能升級，請稍後重試！</string>
+    <string name="cold_wallet_safegem_scan">請使用安寶Andorid熱錢包掃描升級</string>
+    <string name="cold_wallet_auto_update">正在升級中,稍後將為您自動重啟...</string>
+    <string name="cold_wallet_retry_update">藍牙連接已經斷開，請重新升級</string>
+
+    <!--綁定熱端設備-->
+    <string name="bind_device_title_string">熱端設備</string>
+    <string name="bind_device_add_string">添加熱端設備</string>
+    <string name="bind_device_update_string">修改綁定的熱端設備</string>
+    <string name="bind_device_mac_tip_string">Mac 地址：</string>
+
+    <string name="set_wallet_name">設置錢包名稱</string>
+    <string name="wallet_name">錢包名稱：%s</string>
+    <string name="wallet_name_title">錢包名稱</string>
+    <string name="wallet_number">編號：%s</string>
+    <string name="wallet_version_code">版本號：%s</string>
+    <string name="wallet_version_name">版本名：%s</string>
+    <string name="save_wallet_name_error">保存錢包名稱失敗，請重試。</string>
+    <string name="wallet_name_hint">請為您的錢包設置一個名字，可以是中文也可以是英文，長度不超過12個字元，設置後不能更改。</string>
+
+    <string name="transaction_fee">交易手續費</string>
+    <string name="transaction_fee_unit">%s/KB</string>
+    <string name="min_transaction_fee">最低費率：%s %s/KB</string>
+    <string name="default_transaction_fee"><u>預設值</u></string>
+    <string name="save">保存</string>
+    <string name="input_transaction_fee">請輸入交易手續費</string>
+    <string name="high_transaction_fee">%s最高交易手續費為：%s</string>
+    <string name="low_transaction_fee">交易手續費不能低於最低手續費</string>
+    <string name="decimal_places_limit">手續費小數位不能超過%s位</string>
+
+    <string name="eth_gas_price">自訂Gas Price</string>
+    <string name="eth_gas_limit">自訂Gas Limit</string>
+
+    <string name="eth_gas_price_hint">請設置Gas Price</string>
+    <string name="eth_gas_limit_hint">請設置Gas Limit</string>
+    <string name="eth_gas_limit_less_than_hint">Gas Limit不能低於 21000</string>
+    <string name="eth_gas_greater_than_hint">手續費不能超過%s ETH</string>
+    <string name="eth_gas_price_key">Gas Price：</string>
+    <string name="eth_gas_limit_key">Gas Limit：</string>
+
+    <string name="not_bind_device">非綁定的熱錢包</string>
+    <string name="active_success">啟動成功</string>
+
+    <string name="affirm_transaction_fee">手續費：</string>
+    <string name="affirm_pay">確認轉帳</string>
+    <string name="pay_address">地址：</string>
+    <string name="pay_amount">金額：</string>
+
+    <string name="user_protocol">使用授權合約</string>
+
+    <string name="unidentifiable_qr_code">無法識別的二維碼</string>
+
+    <string name="agree_protocol">同意《使用授權合約》才能使用錢包</string>
+
+    <string name="send_hint">注意：轉帳前請確認您已同步餘額。</string>
+    <string name="receive_hint">注意：交易完成後請在資產中同步餘額。</string>
+    <string name="select_sign_currency">請選擇簽名幣種</string>
+    <string name="input_sign_message">請輸入簽名消息</string>
+
+    <string name="scan_sync_balance">請打開熱端APP->選擇相應幣種->同步餘額</string>
+    <string name="warn_save_seed">注意：如果您是首次使用本錢包，請創建錢包抄寫並保存您的種子密碼不要讓任何人知道；如果您已有錢包，可以恢復錢包。</string>
+    <string name="add_wallet_hint">您如果沒有錢包帳戶請創建新錢包，您如果已有錢包請您恢復錢包。</string>
+    <string name="download_hot_wallet">安裝熱錢包</string>
+    <string name="warn_backup_seed">安全警告：請妥善保管。</string>
+    <string name="password_rule">字母大小寫+數位組合，且長度為12到32個字元。</string>
+    <string name="monitoring_account">監控資產</string>
+    <string name="recover_hint">請輸入您備份的種子密碼</string>
+    <string name="scan_seed">掃描種子二維碼</string>
+    <string name="input_wallet_name">錢包名稱不能為空</string>
+
+    <string name="download_hot_wallet_hint">請用手機掃描二維碼安裝安寶熱錢包APP</string>
+    <string name="official_website">官方網址</string>
+    <string name="official_wechat">官方微信</string>
+    <string name="time_calibration">時間校準</string>
+    <string name="time_sync">時間已校準</string>
+
+    <string name="send_limit">%s單個地址轉賬金額不能低於：%s</string>
+
+    <string name="bind_wallet">綁定錢包</string>
+    <string name="guide_hint">使用熱錢包App掃描二維碼完成錢包綁定。\n點擊下壹步完成熱錢包監控冷錢包資產。</string>
+
+    <string name="hint_cold_wallet_update">檢查到您的冷錢包可升級，不升級可能導致錢包不可用，請先升級。</string>
+    <string name="hint_hot_wallet_update">檢查到您的熱錢包可升級，不升級可能導致錢包不可用，請先升級。</string>
+
+    <string name="confirm_continue">確定要繼續嗎？</string>
+    <string name="warn">警告</string>
+
+    <string name="reset_password_error">修改密碼失敗（ret = %s），請重試。</string>
+    <string name="create_wallet_error">錢包創建失敗（ret = %s），請重試。</string>
+
+    <string name="send_affirm_hint">註意：余額不足時，手續費將從轉賬金額中扣除！</string>
+
+    <string name="max_fee">最大手續費：%s %s</string>
+
+    <string name="usdt_btc_series">USDT (BTC)</string>
+    <string name="usdt_eth_series">USDT (ETH)</string>
+
+    <string name="eos_look_pubkey">查看公鑰</string>
+    <string name="eos_account_updated">EOS帳戶已更新</string>
+    <string name="eos_qrcode_tips">本二維碼由帳戶和公鑰生成</string>
+    <string name="eos_create_account_tips">創建獲得EOS公鑰後，可憑藉該公開金鑰在安寶熱錢包APP注册EOS帳戶，完成注册後就可進行EOS的交易</string>
+    <string name="eos_reg_account_name">注册帳戶名</string>
+    <string name="eos_account_name_tips">請輸入帳戶名</string>
+    <string name="eos_account_name_rule_tips">帳户名须为12个字元</string>
+    <string name="eos_account_name_rule">12個字元，僅支持數位1-5，字母a-z，注册後無法修改</string>
+    <string name="eos_owner_pubkey">Owner公鑰</string>
+    <string name="eos_active_pubkey">Active公鑰</string>
+    <string name="eos_owner_prikey">Owner私鑰</string>
+    <string name="eos_active_prikey">Active私鑰</string>
+    <string name="eos_owner_prikey_tips">請輸入或者掃描Owner私鑰</string>
+    <string name="eos_active_prikey_tips">請輸入或者掃描Active私鑰</string>
+    <string name="eos_create_account">創建帳戶</string>
+    <string name="eos_create_scan_tips">創建後打開熱錢包APP，打開掃一掃掃描</string>
+    <string name="eos_import_account_tips">導入您之前所注册的EOS帳戶Owner私鑰和Active私鑰，請妥善保管好，安寶不獲取您的任何私鑰。</string>
+    <string name="eos_import_account_name">導入帳戶名</string>
+    <string name="eos_import_account_name_rule">您的帳戶是由12個字元，僅支持數位1-5，字母a-z組成</string>
+    <string name="eos_import_scan_tips">導出後打開熱錢包APP，打開掃一掃掃描校驗帳戶</string>
+    <string name="eos_import_account">導出帳戶</string>
+    <string name="eos_sync_block_tips">請先同步EOS區塊信息</string>
+    <string name="eos_select_account">請選擇收款人賬戶</string>
+    <string name="eos_account">EOS帳戶</string>
+    <string name="account_count">%d个帳戶</string>
+    <string name="eos_sync_code_err">請掃描熱端EOS區塊信息二維碼</string>
+    <string name="eos_account_disabled">當前錢包暫無EOS賬戶，請創建或導入EOS賬戶。</string>
+    <string name="eos_sync_succ">同步成功</string>
+    <string name="eos_first_create_account">請先創建EOS帳戶</string>
+    <string name="eos_ret_info_err">非本錢包EOS帳號資訊</string>
+
+    <string name="eos_buy_ram">購買內存</string>
+    <string name="eos_delegatebw">抵押CPU、NET</string>
+    <string name="eos_buy_ram_tips">輸入購買內存數量</string>
+    <string name="eos_buy_ram_less_than">購買內存不能小於%sKB</string>
+    <string name="eos_define">自定義</string>
+    <string name="eos_confirm_buy">確認購買</string>
+    <string name="eos_dele_cpu">抵押CPU</string>
+    <string name="eos_dele_net">抵押NET</string>
+    <string name="eos_input_amount">輸入EOS數量</string>
+    <string name="eos_invalid_amount">無效的EOS數量</string>
+    <string name="eos_confrim_dele">確認抵押</string>
+    <string name="eos_account_name_invalid">無效的EOS帳戶名</string>
+    <string name="eos_min_delegatebw_tips">最小抵押0.1 EOS</string>
+    <string name="eos_delegatebw_tips">最小抵押0.1 EOS</string>
+    <string name="eos_cant_send_self">不能給自己帳戶進行轉帳</string>
+    <string name="scan_content">掃描的內容</string>
+    <string name="copy_clipboard">複製粘貼板</string>
+    <string name="copy_success">複製成功</string>
+    <string name="eth_unsupport_token">唔支持嘅ERC20代币</string>
+    <string name="eos_unsupport_token">唔支持嘅EOS代币</string>
+    <string name="contract_address">合約地址: %s</string>
+    <string name="confirm_delete_token">您確定要删除%s嗎?</string>
+
+</resources>
+
+

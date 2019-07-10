@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginTop="@dimen/dimen_12dp"
+    android:orientation="vertical">
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_my_public_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:visibility="gone"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_backups_seed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:background="@color/public_background" />
+
+    <com.bankledger.safecold.ui.widget.CommonTextWidget
+        android:id="@+id/ctw_wallet_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+</LinearLayout>

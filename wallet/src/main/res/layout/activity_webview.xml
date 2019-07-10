@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_12dp">
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/protocol_title0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:lineSpacingExtra="@dimen/dimen_4dp"
+            android:text="@string/protocol_detail0"
+            android:textColor="@color/text_color" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/protocol_title1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:lineSpacingExtra="@dimen/dimen_4dp"
+            android:text="@string/protocol_detail1"
+            android:textColor="@color/text_color" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/protocol_title2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:lineSpacingExtra="@dimen/dimen_4dp"
+            android:text="@string/protocol_detail2"
+            android:textColor="@color/text_color" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/protocol_title3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:lineSpacingExtra="@dimen/dimen_4dp"
+            android:text="@string/protocol_detail3"
+            android:textColor="@color/text_color" />
+
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/protocol_title4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:lineSpacingExtra="@dimen/dimen_4dp"
+            android:text="@string/protocol_detail4"
+            android:textColor="@color/text_color" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/protocol_title5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <com.bankledger.safecold.ui.widget.AutoSplitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:lineSpacingExtra="@dimen/dimen_4dp"
+            android:text="@string/protocol_detail5"
+            android:textColor="@color/text_color" />
+    </LinearLayout>
+</ScrollView>

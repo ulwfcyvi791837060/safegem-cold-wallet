@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bnv_asset"
+        android:enabled="true"
+        android:icon="@mipmap/asset_normal"
+        android:title="@string/tab_asset"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bnv_address_book"
+        android:enabled="true"
+        android:icon="@mipmap/address_book_normal"
+        android:title="@string/tab_address"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bnv_mine"
+        android:enabled="true"
+        android:icon="@mipmap/tab_mine"
+        android:title="@string/tab_mine"
+        app:showAsAction="ifRoom" />
+
+</menu>

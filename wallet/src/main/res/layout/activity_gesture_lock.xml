@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ViewStub
+        android:id="@+id/vs_not_set"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/stub_gesture_not_set"
+        android:orientation="vertical" />
+
+    <ViewStub
+        android:id="@+id/vs_is_set"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/stub_gesture_is_set"
+        android:orientation="vertical" />
+</LinearLayout>

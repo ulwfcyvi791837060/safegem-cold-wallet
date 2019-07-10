@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_14dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_qr_code"
+        android:layout_width="@dimen/dimen_210dp"
+        android:layout_height="@dimen/dimen_210dp" />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:lineSpacingExtra="@dimen/dimen_4dp"
+        android:textSize="@dimen/font_12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_14dp"
+        android:layout_marginLeft="@dimen/dimen_30dp"
+        android:layout_marginRight="@dimen/dimen_30dp"
+        android:layout_marginTop="@dimen/dimen_14dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_last"
+            style="@style/public_circle_button_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:text="@string/last_step" />
+
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/public_circle_button_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/next_step" />
+
+    </LinearLayout>
+</LinearLayout>

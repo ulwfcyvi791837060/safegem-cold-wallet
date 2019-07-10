@@ -1,0 +1,400 @@
+<resources>
+    <string name="app_name">SafeCold</string>
+
+    <string name="ok">确定</string>
+    <string name="hint_scan">扫一扫</string>
+    <string name="hint_find">对准二维码扫描</string>
+    <string name="hint_camera_framework_bug">抱歉，相机出现问题，应用没权限访问相机。</string>
+
+    <string name="close">关闭</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="tip">提示</string>
+    <string name="complete">完成</string>
+    <string name="check_all">全选</string>
+    <string name="all_dont_check">全不选</string>
+    <string name="not_data">无更多数据...</string>
+
+    <string name="loadmore_loading">加载中</string>
+    <string name="loadmore_footer_end">已经到底了</string>
+    <string name="loadmore_network_error">网络错误，点击重试</string>
+
+    <string name="tab_asset">资产</string>
+    <string name="tab_address">地址薄</string>
+    <string name="tab_mine">我的</string>
+
+    <!-- 我的 -->
+    <string name="wallet_manage">钱包管理</string>
+    <string name="send_record">发送记录</string>
+    <string name="public_key_book">公钥簿</string>
+    <string name="many_sign_deal">多签名交易</string>
+    <string name="message_sign">消息签名</string>
+    <string name="sign_message">签名消息</string>
+    <string name="verify_message_sign">验证消息签名</string>
+    <string name="setting">设置</string>
+    <string name="safe_upgrade">安全升级</string>
+    <string name="help">帮助</string>
+    <string name="sign">签名</string>
+
+    <!--设置-->
+    <string name="security_setting">安全设置</string>
+    <string name="system_setting">系统设置</string>
+    <string name="restore_factory">恢复出厂设置</string>
+    <string name="restore_factory_warn">恢复出厂设置将清空您钱包的所有数据，请确保您已备份钱包。确认清除？</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="safegem_modify">热端蓝牙</string>
+    <string name="fingerprint_setting">指纹设置</string>
+    <string name="gesture_setting">手势设置</string>
+    <string name="input_message">待签名消息</string>
+    <string name="original_message">原消息</string>
+    <string name="input_original_message">请输入原消息</string>
+    <string name="signed_message">已签名消息</string>
+    <string name="input_signed_message">请输入已签名消息</string>
+    <string name="verify">验证</string>
+    <string name="verify_success">消息验证成功</string>
+    <string name="verify_fail">消息验证失败</string>
+
+    <!--选择币种-->
+    <string name="select_currency">选择币种</string>
+    <string name="input_keyword_hint">请输入关键字</string>
+    <string name="all">全部</string>
+
+    <string name="input_seed_word">请按顺序输入您备份的种子密码。</string>
+    <string name="show_seed_qr_code">显示种子二维码</string>
+    <string name="check_seed">验证种子密码</string>
+    <string name="check_seed_error">种子密码校验失败，请重试。</string>
+
+    <string name="change_password">修改密码</string>
+    <string name="my_public_key">我的公钥</string>
+    <string name="backups_seed">备份种子密码</string>
+    <string name="seed_password">种子密码</string>
+    <string name="wallet_info">钱包绑定</string>
+
+    <string name="pay_to">付给：%s</string>
+    <string name="hint_address_remark">地址备注</string>
+    <string name="payee_address">收款人钱包地址</string>
+    <string name="select_payee_address">请选择收款人钱包地址。</string>
+    <string name="money">金额</string>
+    <string name="input_money">请输入转账金额。</string>
+    <string name="input_money_limit">转账金额需大于%s</string>
+    <string name="not_sufficient_funds_title">余额不足</string>
+    <string name="not_sufficient_funds">当前%s余额不足支付该笔交易。若有余额未同步，请尝试先从热钱包同步余额。</string>
+    <string name="not_sufficient_funds2">计入交易费后超出您的%s余额</string>
+    <string name="transaction_size_failed">交易构建失败，交易大小超过上限。</string>
+    <string name="amount_is_too_small">该金额太小了，无法支付。</string>
+    <string name="unknown_abnormal">未知异常</string>
+    <string name="remark">备注</string>
+    <string name="next_step">下一步</string>
+    <string name="last_step">上一步</string>
+
+    <string name="refresh_balance">更新余额</string>
+    <string name="sync">同步</string>
+    <string name="synchronous_balance">余额已更新</string>
+    <string name="synchronous_balance_err">非本钱包余额信息</string>
+    <string name="view_details">查看详情 ></string>
+    <string name="send">发送</string>
+    <string name="receive">接收</string>
+
+    <string name="step_1">1</string>
+    <string name="step_2">2</string>
+
+    <string name="receive_amount">收款金额</string>
+
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="submit_password">确定新密码</string>
+    <string name="remind_forget_password">忘记密码，可以导入助记词重置密码，</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="forget_password_link">忘记密码？</string>
+    <string name="hint_forget_password">很遗憾，忘记密码意味着钱包丢失，点击确认后将会清空钱包数据，您可以通过恢复钱包后重新同步钱包数据，也可以重新创建一个新钱包。</string>
+    <string name="import_seed"><u>立即导入</u></string>
+    <string name="old_password_error">旧密码错误，请检查。</string>
+    <string name="reset_success">密码修改成功。</string>
+    <string name="hint_old_password">请输入旧密码。</string>
+    <string name="hint_new_password">请输入新密码。</string>
+    <string name="hint_submit_password">请确认新密码。</string>
+    <string name="hint_new_password_error">新密码不一致。</string>
+    <string name="hint_password_error">新旧密码不能一致。</string>
+    <string name="hint_input_password">请输入钱包密码。</string>
+    <string name="submit_input_password">请输入确认钱包密码。</string>
+    <string name="input_password_err">钱包密码不一致。</string>
+    <string name="input_password_length_min">密码长度至少12位。</string>
+    <string name="input_password_format_error">密码格式错误。</string>
+    <string name="input_password_contain">密码需包含字母大小写及数字。</string>
+
+    <string name="password_error">密码错误，请检查。</string>
+    <string name="address_err">无效地址，请检查。</string>
+
+    <string name="wallet_scan">扫码</string>
+    <string name="wallet_receive">收款</string>
+    <string name="wallet_transfer">转账</string>
+    <string name="hide_zero">隐藏零资产币种</string>
+    <string name="search">搜索</string>
+
+    <string name="scan_qr_code">扫描热钱包二维码</string>
+
+    <string name="my_address">我的地址</string>
+    <string name="my_address_title">我的地址-%s</string>
+    <string name="my_address_select">选择地址-%s</string>
+    <string name="contact_address">联系人地址</string>
+    <string name="currency_address_count">%d个地址</string>
+
+    <string name="no_alias">没有备注</string>
+    <string name="monitor">监控</string>
+    <string name="priv_key">私钥</string>
+    <string name="delete">删除</string>
+    <string name="add">添加</string>
+    <string name="add_receiver">添加收款人</string>
+    <string name="select_fee">选择交易费</string>
+    <string name="add_address">添加地址</string>
+    <string name="edit_alias">编辑备注</string>
+
+    <string name="wallet_address">钱包地址</string>
+    <string name="exist_address">该地址已保存，不能重复添加。</string>
+    <string name="exist_address2">该地址为本钱包地址，不能添加。</string>
+    <string name="hint_select_currency">请先选择币种。</string>
+    <string name="input_address">请输入钱包地址。</string>
+    <string name="select_address">请选择币种。</string>
+    <string name="please_add_receiver">请添加收款人。</string>
+    <string name="sign_address">签名地址</string>
+    <string name="input_sign_address">请输入签名地址</string>
+
+    <string name="contact_address_detail">联系人地址-%s</string>
+    <string name="resend">再次发送</string>
+    <string name="delete_contact">删除联系人</string>
+    <string name="submit_delete_contact">确认删除该联系人。</string>
+    <string name="cant_delete">该地址下存在未花费的%s，不能删除。</string>
+
+    <string name="input_password">输入钱包密码</string>
+    <string name="password">密码</string>
+    <string name="hint_password">请输入钱包密码</string>
+    <string name="hint_password2">请确认钱包密码</string>
+
+    <string name="max_hdaddress_count">您已拥有%d个地址，不能继续添加。</string>
+    <string name="select_pay_address">支付地址：%s</string>
+
+    <string name="export">导出</string>
+    <string name="export_qr_code">导出二维码</string>
+    <string name="select_export_currency">请选择监控币种</string>
+    <string name="previous_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="scan_monitor">请使用热钱包App扫描二维码，添加监控。</string>
+    <string name="scan_send">请使用热钱包App扫描二维码，发送交易，交易完成后，请同步余额。</string>
+    <string name="scan_hot">请使用热钱包App扫描二维码。</string>
+
+    <string name="not_set">未设置</string>
+    <string name="is_enabled">已启用</string>
+    <string name="not_enabled">未启用</string>
+    <string name="gesture_lock">手势密码锁定</string>
+    <string name="create_gesture">创建手势密码</string>
+    <string name="set_gesture">设置手势密码</string>
+    <string name="create_gesture_explain">您可以创建一个钱包解锁图案，这样他人在拿到您的钱包时，将无法打开钱包。</string>
+    <string name="draw_gesture">绘制解锁图案</string>
+    <string name="submit_gesture">确认解锁图案</string>
+    <string name="gesture_dot_number">至少连接4个点</string>
+    <string name="gesture_set_success">手势密码设置成功</string>
+    <string name="gesture_error">与上次绘制图案不一致</string>
+    <string name="gesture_error2">解锁失败</string>
+    <string name="change_gesture">修改手势密码</string>
+    <string name="gesture_error_hint">5次失败后，需要输入密码解锁。</string>
+    <string name="gesture_error_hint2">连续五次解锁失败，需要输入密码解锁。</string>
+    <string name="gesture_error_count">密码错误，还可以再试%d次。</string>
+    <string name="password_unlock">密码解锁</string>
+    <string name="set_password">设置钱包密码</string>
+
+    <string name="language">language</string>
+    <string name="chinese">简体中文 </string>
+    <string name="chinese_tw">繁体中文 </string>
+    <string name="english">English</string>
+
+    <string name="account_create_fail">账户创建失败，请重试。</string>
+    <string name="account_creating">账户创建中......</string>
+    <string name="change_seed">换一组</string>
+    <string name="recover">恢复</string>
+
+    <string name="seed_error">错误的种子密码，请重新输入。</string>
+
+    <string name="restore_wallet">恢复钱包</string>
+    <string name="create_wallet">创建新钱包</string>
+    <string name="input_all_seed">请输入完整的种子密码</string>
+    <string name="agree_hint">我已阅读并同意</string>
+    <string name="agree_content"><u>《使用许可协议》</u></string>
+
+
+    <string name="max_once_send_count">最多添加%d个接收者，不能继续添加。</string>
+    <string name="send_warn">不正确的%s收款地址</string>
+    <string name="send_warn2">无法识别的收款地址</string>
+    <string name="select_contacts">选择联系人</string>
+
+    <string name="scan_result">扫描结果</string>
+
+    <string name="view_set">显示与亮度</string>
+    <string name="fingerprint_set">指纹</string>
+    <string name="language_set">语言</string>
+    <string name="date_set">日期与时间</string>
+    <string name="vol_set">音量</string>
+
+    <string name="no_fingerprint">未添加指纹，请到系统设置中添加指纹。</string>
+    <string name="fingerprint_error">指纹不匹配，请重试。</string>
+    <string name="cant_send_self">您选择的地址%s为自己钱包地址，不能进行转账。</string>
+
+    <!--安全升级-->
+    <string name="cold_wallet_update">安全升级</string>
+    <string name="cold_wallet_exit">您是否需要退出升级吗？</string>
+    <string name="cold_wallet_opening_bluetooth">正在打开蓝牙...</string>
+    <string name="cold_wallet_bluetooth_connected">正在更新冷端软件，请稍等…</string>
+    <string name="cold_wallet_bluetooth_disconnected">连接已断开</string>
+    <string name="cold_wallet_bluetooth_connection_failure">蓝牙连接失败</string>
+    <string name="cold_wallet_md5_not_correct">最新版本校验不正确不能升级，请稍后重试！</string>
+    <string name="cold_wallet_safegem_scan">请使用安宝Android热钱包扫描升级</string>
+    <string name="cold_wallet_auto_update">正在升级中,稍后将为您自动重启...</string>
+    <string name="cold_wallet_retry_update">蓝牙连接已经断开，请重新升级</string>
+
+    <!--绑定热端设备-->
+    <string name="bind_device_title_string">热端设备</string>
+    <string name="bind_device_add_string">添加热端设备</string>
+    <string name="bind_device_update_string">修改绑定的热端设备</string>
+    <string name="bind_device_mac_tip_string">Mac 地址：</string>
+
+    <string name="set_wallet_name">设置钱包名称</string>
+    <string name="wallet_name">钱包名称：%s</string>
+    <string name="wallet_name_title">钱包名称</string>
+    <string name="wallet_number">编号：%s</string>
+    <string name="wallet_version_code">版本号：%s</string>
+    <string name="wallet_version_name">版本名：%s</string>
+    <string name="save_wallet_name_error">保存钱包名称失败，请重试。</string>
+    <string name="wallet_name_hint">请为您的钱包设置一个名字，可以是中文也可以是英文，长度不超过12个字符，设置后不能更改。</string>
+
+    <string name="transaction_fee">交易手续费</string>
+    <string name="transaction_fee_unit">%s/KB</string>
+    <string name="min_transaction_fee">最低费率：%s %s/KB</string>
+    <string name="default_transaction_fee"><u>默认值</u></string>
+    <string name="save">保存</string>
+    <string name="input_transaction_fee">请输入交易手续费</string>
+    <string name="high_transaction_fee">%s最高交易手续费为：%s</string>
+    <string name="low_transaction_fee">交易手续费不能低于最低手续费</string>
+    <string name="decimal_places_limit">手续费小数位不能超过%s位</string>
+
+    <string name="eth_gas_price">自定义Gas Price</string>
+    <string name="eth_gas_limit">自定义Gas Limit</string>
+
+    <string name="eth_gas_price_hint">请设置Gas Price</string>
+    <string name="eth_gas_limit_hint">请设置Gas Limit</string>
+    <string name="eth_gas_limit_less_than_hint">Gas Limit不能低于 21000</string>
+    <string name="eth_gas_greater_than_hint">手续费不能超过%s ETH</string>
+    <string name="eth_gas_price_key">Gas Price：</string>
+    <string name="eth_gas_limit_key">Gas Limit：</string>
+
+    <string name="not_bind_device">非绑定的热钱包</string>
+    <string name="active_success">激活成功</string>
+
+    <string name="affirm_transaction_fee">手续费：</string>
+    <string name="affirm_pay">确认转账</string>
+    <string name="pay_address">地址：</string>
+    <string name="pay_amount">金额：</string>
+
+    <string name="user_protocol">使用许可协议</string>
+
+    <string name="unidentifiable_qr_code">无法识别的二维码</string>
+
+    <string name="agree_protocol">同意《使用许可协议》才能使用钱包</string>
+
+    <string name="send_hint">注意：转账前请确认您已同步余额。</string>
+    <string name="receive_hint">注意：交易完成后请在资产中同步余额。</string>
+    <string name="select_sign_currency">请选择签名币种</string>
+    <string name="input_sign_message">请输入签名消息</string>
+
+    <string name="scan_sync_balance">请打开热端APP->选择相应币种->同步余额</string>
+    <string name="warn_save_seed">注意：如果您是首次使用本钱包，请创建钱包抄写并保存您的种子密码不要让任何人知道；如果您已有钱包，可以恢复钱包。</string>
+    <string name="add_wallet_hint">您如果没有钱包账户请创建新钱包，您如果已有钱包请您恢复钱包。</string>
+    <string name="download_hot_wallet">安装热钱包</string>
+    <string name="warn_backup_seed">安全警告：请妥善保管。</string>
+    <string name="password_rule">字母大小写+数字组合，且长度为12到32个字符。</string>
+    <string name="monitoring_account">监控资产</string>
+    <string name="recover_hint">请输入您备份的种子密码</string>
+    <string name="scan_seed">扫描种子二维码</string>
+    <string name="input_wallet_name">钱包名称不能为空</string>
+
+    <string name="download_hot_wallet_hint">请用手机扫描二维码安装安宝热钱包APP</string>
+    <string name="official_website">官方网址</string>
+    <string name="official_wechat">官方微信</string>
+    <string name="time_calibration">时间校准</string>
+    <string name="time_sync">时间已校准</string>
+
+    <string name="send_limit">%s单个地址转账金额不能低于：%s</string>
+
+    <string name="bind_wallet">绑定钱包</string>
+    <string name="guide_hint">使用热钱包App扫描二维码完成钱包绑定。\n点击下一步完成热钱包监控冷钱包资产。</string>
+
+    <string name="hint_cold_wallet_update">检查到您的冷钱包可升级，不升级可能导致钱包不可用，请先升级。</string>
+    <string name="hint_hot_wallet_update">检查到您的热钱包可升级，不升级可能导致钱包不可用，请先升级。</string>
+
+    <string name="confirm_continue">确定要继续吗？</string>
+    <string name="warn">警告</string>
+
+    <string name="reset_password_error">修改密码失败（ret = %s），请重试。</string>
+    <string name="create_wallet_error">钱包创建失败（ret = %s），请重试。</string>
+
+    <string name="send_affirm_hint">注意：余额不足时，手续费将从转账金额中扣除！</string>
+
+    <string name="max_fee">最大手续费：%s %s</string>
+
+    <string name="usdt_btc_series">USDT (BTC)</string>
+    <string name="usdt_eth_series">USDT (ETH)</string>
+
+    <string name="eos_look_pubkey">查看公钥</string>
+    <string name="eos_account_updated">EOS账户已更新</string>
+    <string name="eos_qrcode_tips">本二维码由账户和公钥生成</string>
+    <string name="eos_create_account_tips">创建获得EOS公钥后，可凭借该公钥在安宝热钱包APP注册EOS账户，完成注册后就可进行EOS的交易</string>
+    <string name="eos_reg_account_name">注册账户名</string>
+    <string name="eos_account_name_tips">请输入账户名</string>
+    <string name="eos_account_name_rule_tips">账户名须为12个字符</string>
+    <string name="eos_account_name_rule">12个字符，仅支持数字1-5，字母a-z，注册后无法修改</string>
+    <string name="eos_owner_pubkey">Owner公钥</string>
+    <string name="eos_active_pubkey">Active公钥</string>
+    <string name="eos_owner_prikey">Owner私钥</string>
+    <string name="eos_active_prikey">Active私钥</string>
+    <string name="eos_owner_prikey_tips">请输入或者扫描Owner私钥</string>
+    <string name="eos_active_prikey_tips">请输入或者扫描Active私钥</string>
+    <string name="eos_create_account">创建账户</string>
+    <string name="eos_create_scan_tips">创建后打开热钱包APP，打开扫一扫扫描</string>
+    <string name="eos_import_account_tips">导入您之前所注册的EOS账户Owner私钥和Active私钥，请妥善保管好，安宝不获取您的任何私钥。</string>
+    <string name="eos_import_account_name">导入账户名</string>
+    <string name="eos_import_account_name_rule">您的账户是由12个字符，仅支持数字1-5，字母a-z组成</string>
+    <string name="eos_import_scan_tips">导出后打开热钱包APP，打开扫一扫扫描校验账户</string>
+    <string name="eos_import_account">导出账户</string>
+    <string name="eos_sync_block_tips">请先同步EOS区块信息</string>
+    <string name="eos_select_account">请选择收款人账户</string>
+    <string name="eos_account">EOS账户</string>
+    <string name="account_count">%d个账户</string>
+    <string name="eos_sync_code_err">请扫描热端EOS区块信息二维码</string>
+    <string name="eos_account_disabled">当前钱包暂无EOS账户，请创建或导入EOS账户。</string>
+    <string name="eos_sync_succ">同步成功</string>
+    <string name="eos_first_create_account">请先创建EOS账户</string>
+    <string name="eos_ret_info_err">非本钱包EOS账号信息</string>
+
+    <string name="eos_buy_ram">购买内存</string>
+    <string name="eos_delegatebw">抵押CPU、NET</string>
+    <string name="eos_buy_ram_tips">输入购买内存数量</string>
+    <string name="eos_buy_ram_less_than">购买内存不能小于%sKB</string>
+    <string name="eos_define">自定义</string>
+    <string name="eos_confirm_buy">确认购买</string>
+    <string name="eos_dele_cpu">抵押CPU</string>
+    <string name="eos_dele_net">抵押NET</string>
+    <string name="eos_input_amount">输入EOS数量</string>
+    <string name="eos_invalid_amount">无效的EOS数量</string>
+    <string name="eos_confrim_dele">确认抵押</string>
+    <string name="eos_account_name_invalid">无效的EOS账户名</string>
+    <string name="eos_min_delegatebw_tips">最小抵押0.1 EOS</string>
+    <string name="eos_delegatebw_tips">最小抵押0.1 EOS</string>
+    <string name="eos_cant_send_self">不能给自己账户进行转账</string>
+    <string name="scan_content">扫描的内容</string>
+    <string name="copy_clipboard">复制粘贴板</string>
+    <string name="copy_success">复制成功</string>
+    <string name="eth_unsupport_token">不支持的ERC20代币</string>
+    <string name="eos_unsupport_token">不支持的EOS代币</string>
+    <string name="contract_address">合约地址: %s</string>
+    <string name="confirm_delete_token">您确定要删除%s吗？</string>
+
+</resources>

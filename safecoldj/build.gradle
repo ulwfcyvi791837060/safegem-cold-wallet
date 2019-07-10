@@ -1,0 +1,23 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.guava:guava:13.0.1@jar'
+    implementation 'com.google.code.findbugs:jsr305:2.0.1@jar'
+    implementation 'com.lambdaworks:scrypt:1.4.0@jar'
+    implementation 'org.slf4j:slf4j-api:1.7.7'
+    implementation 'com.madgag.spongycastle:core:1.51.0.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'org.web3j:core:3.3.1-android'
+    implementation 'com.google.protobuf:protobuf-java:2.6.1'
+    implementation files('libs/eos4j-1.0.3.jar')
+    implementation files('libs/FileEncrypt-v1.0.3.jar')
+    implementation files('libs/protobuf-protocol-v2.1.0')
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}

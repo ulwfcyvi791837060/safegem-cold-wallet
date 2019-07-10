@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_14dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingTop="@dimen/dimen_14dp">
+
+        <ImageView
+            android:id="@+id/iv_currency_icon"
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_currency_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Bitcoin(BTC)"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_16sp" />
+
+        <Button
+            android:id="@+id/bt_sign_param"
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/public_button_shape"
+            android:gravity="center"
+            android:text="@string/sync"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/public_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingRight="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_8dp">
+
+            <TextView
+                android:id="@+id/tv_pay_to"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pay_to"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/font_16sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_6dp"
+                android:src="@mipmap/scan_qr" />
+
+            <ImageView
+                android:id="@+id/iv_select_payee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_6dp"
+                android:src="@mipmap/select_contacts" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:background="@color/public_background" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:background="@color/public_background" />
+
+        <com.bankledger.safecold.ui.widget.CommonEditWidget
+            android:id="@+id/cew_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:layout_marginRight="@dimen/dimen_12dp"
+            android:layout_marginTop="@dimen/dimen_4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:background="@color/public_background" />
+
+        <com.bankledger.safecold.ui.widget.CommonEditWidget
+            android:id="@+id/cew_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:layout_marginRight="@dimen/dimen_12dp"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            app:input_type="numberDecimal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:background="@color/public_background" />
+
+        <com.bankledger.safecold.ui.widget.CommonEditWidget
+            android:id="@+id/cew_memo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:layout_marginRight="@dimen/dimen_12dp"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            app:input_type="text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:text="@string/send_hint"
+        android:textSize="@dimen/font_12sp"/>
+
+    <Button
+        android:id="@+id/bt_next"
+        style="@style/public_circle_button_style"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen_40dp"
+        android:layout_marginRight="@dimen/dimen_40dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:text="@string/next_step" />
+
+</LinearLayout>

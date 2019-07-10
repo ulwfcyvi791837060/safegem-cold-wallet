@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公用CommonWidget -->
+    <declare-styleable name="CommonWidget">
+        <attr name="left_image" />
+        <attr name="right_image" />
+    </declare-styleable>
+
+    <!-- 公用CommonTextWidget -->
+    <declare-styleable name="CommonTextWidget">
+        <attr name="left_text" />
+        <attr name="right_text" />
+        <attr name="summary_text" format="string" />
+    </declare-styleable>
+
+    <!-- 公用CommonEditWidget -->
+    <declare-styleable name="CommonEditWidget">
+        <attr name="left_image" />
+        <attr name="right_image" />
+        <attr name="input_type">
+            <enum name="text" value="1" />
+            <enum name="number" value="2" />
+            <enum name="phone" value="3" />
+            <enum name="password" value="4" />
+            <enum name="numberPassword" value="5" />
+            <enum name="numberDecimal" value="6" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CommonLevelBar">
+        <attr name="barColor" format="color" /><!--选中状态颜色-->
+        <attr name="defaultColor" format="color" /><!--默认背景颜色-->
+        <attr name="barSize" format="dimension" /><!--bar的高度大小-->
+        <attr name="levelRadius" format="dimension" /><!--圆圈半径-->
+        <attr name="maxLevel" format="integer" /><!--等级-->
+        <attr name="explainTextSize" format="dimension" /><!--说明字体大小-->
+        <attr name="explainTextColor" format="color" /><!--说明字体颜色-->
+        <attr name="explainPadding" format="dimension" /><!--说明字体与bar之间间隙-->
+    </declare-styleable>
+
+    <declare-styleable name="circleProgressBar">
+        <attr name="circleWidth" format="dimension" />
+        <attr name="betaAngle" format="integer" />
+        <attr name="firstColor" format="color" />
+        <attr name="secondColor" format="color" />
+    </declare-styleable>
+</resources>

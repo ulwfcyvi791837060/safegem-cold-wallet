@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_12dp"
+        android:paddingTop="@dimen/dimen_12dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_wallet_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="@dimen/dimen_6dp"
+                android:drawableTop="@mipmap/wallet_scan"
+                android:text="@string/wallet_scan"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_18sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_wallet_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="@dimen/dimen_6dp"
+                android:drawableTop="@mipmap/wallet_receive"
+                android:text="@string/wallet_receive"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_18sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_wallet_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="@dimen/dimen_6dp"
+                android:drawableTop="@mipmap/wallet_transfer"
+                android:text="@string/wallet_transfer"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_18sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/abl_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <LinearLayout
+                android:id="@+id/ll_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dimen_2dp"
+                android:paddingRight="@dimen/dimen_4dp"
+                android:paddingTop="@dimen/dimen_2dp"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <android.support.v7.widget.SearchView
+                    android:id="@+id/sv_search"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    app:iconifiedByDefault="false"
+                    app:queryHint="@string/input_keyword_hint"
+                    app:queryBackground="@null"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+                <TextView
+                    android:id="@+id/tv_zero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_6dp"
+                    android:textSize="@dimen/font_12sp"
+                    android:text="@string/hide_zero" />
+
+                <Switch
+                    android:id="@+id/switch_hide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <include
+            android:id="@+id/include_not_data"
+            layout="@layout/include_not_data"
+            android:visibility="gone" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_36dp"
+            android:layout_marginStart="@dimen/dimen_10dp"
+            android:layout_weight="1"
+            android:background="@drawable/searchview_background_shape"
+            android:drawableStart="@drawable/ic_search_gray_24dp"
+            android:text="@string/input_keyword_hint"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_hint_color"
+            android:paddingLeft="@dimen/dimen_16dp" />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_6dp"
+            android:layout_marginRight="@dimen/dimen_6dp"
+            android:padding="@dimen/dimen_10dp"
+            android:src="@mipmap/add"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_40dp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_address_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

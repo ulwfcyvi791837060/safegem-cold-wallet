@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/oldWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="老接口写"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/oldRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="老接口读"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/oldDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="老接口删"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/newWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="newWrite"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/newRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="newRead"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/newDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="newDelete"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/fromOldToNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="fromOldToNew"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/updatePWD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="updatePWD"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/hasWritedFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_1dp"
+        android:background="@color/text_hint_color"
+        android:padding="@dimen/dimen_12dp"
+        android:text="hasWritedFile"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_12dp"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

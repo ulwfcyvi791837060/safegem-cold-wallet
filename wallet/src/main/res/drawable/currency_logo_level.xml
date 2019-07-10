@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/logo_trans_shape" android:maxLevel="0" />
+    <item android:drawable="@mipmap/logo_safe" android:maxLevel="1"/>
+    <item android:drawable="@mipmap/logo_btc" android:maxLevel="2"/>
+    <item android:drawable="@mipmap/logo_ltc" android:maxLevel="3"/>
+    <item android:drawable="@mipmap/logo_bch" android:maxLevel="4"/>
+    <item android:drawable="@mipmap/logo_btg" android:maxLevel="5"/>
+    <item android:drawable="@mipmap/logo_dash" android:maxLevel="6"/>
+    <item android:drawable="@mipmap/logo_qtum" android:maxLevel="7"/>
+    <item android:drawable="@mipmap/logo_eth" android:maxLevel="8"/>
+    <item android:drawable="@mipmap/logo_fto" android:maxLevel="9"/>
+    <item android:drawable="@mipmap/logo_dash" android:maxLevel="10"/>
+</level-list>

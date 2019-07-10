@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_14dp"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingRight="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_14dp">
+
+            <ImageView
+                android:id="@+id/iv_currency_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_currency_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Bitcoin(BTC)"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_14dp"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingRight="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_14dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/affirm_transaction_fee"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_transaction_fee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/transaction_fee_unit"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimen_8dp"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingRight="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:textSize="@dimen/font_12sp"
+            android:text="@string/send_affirm_hint"/>
+
+        <Button
+            android:id="@+id/bt_confirm"
+            style="@style/public_circle_button_style"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/dimen_12dp"
+            android:layout_marginLeft="@dimen/dimen_40dp"
+            android:layout_marginRight="@dimen/dimen_40dp"
+            android:layout_marginTop="@dimen/dimen_80dp"
+            android:text="@string/confirm" />
+
+    </LinearLayout>
+</ScrollView>

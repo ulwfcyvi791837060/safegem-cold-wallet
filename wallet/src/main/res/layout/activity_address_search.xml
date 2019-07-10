@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/sv_search"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_36dp"
+            android:layout_marginStart="@dimen/dimen_12dp"
+            android:layout_weight="1"
+            android:background="@drawable/searchview_background_shape"
+            app:iconifiedByDefault="false"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:queryHint="@string/input_keyword_hint" />
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_12dp"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+    <include
+        android:id="@+id/include_not_data"
+        layout="@layout/include_not_data"
+        android:visibility="gone" />
+
+</LinearLayout>

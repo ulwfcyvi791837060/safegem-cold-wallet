@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/dimen_12dp"
+            android:paddingBottom="@dimen/dimen_14dp"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingRight="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_14dp">
+
+            <ImageView
+                android:id="@+id/iv_currency_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_currency_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Bitcoin(BTC)"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_16sp" />
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/item_send_currency"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_12dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_14dp"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingRight="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_14dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eth_gas_price_key"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_gas_price"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_4dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_6dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/dimen_14dp"
+            android:paddingLeft="@dimen/dimen_20dp"
+            android:paddingRight="@dimen/dimen_20dp"
+            android:paddingTop="@dimen/dimen_14dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eth_gas_limit_key"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_gas_limit"
+                android:layout_marginLeft="@dimen/dimen_4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/bt_confirm"
+            style="@style/public_circle_button_style"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dimen_40dp"
+            android:layout_marginRight="@dimen/dimen_40dp"
+            android:layout_marginTop="@dimen/dimen_80dp"
+            android:text="@string/confirm" />
+
+    </LinearLayout>
+</ScrollView>

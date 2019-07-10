@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/start_bg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/center_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_60dp">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/safegem_logo_blue" />
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/safegem_logo" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_10dp">
+
+        <TextView
+            android:id="@+id/tv_wallet_name_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/font_25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_wallet_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/font_25sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</RelativeLayout>

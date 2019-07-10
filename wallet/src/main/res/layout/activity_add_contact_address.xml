@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/include_currency_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp" />
+
+    <com.bankledger.safecold.ui.widget.CommonEditWidget
+        android:id="@+id/cew_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp" />
+
+    <com.bankledger.safecold.ui.widget.CommonEditWidget
+        android:id="@+id/cew_alias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingTop="@dimen/dimen_10dp" />
+
+</LinearLayout>

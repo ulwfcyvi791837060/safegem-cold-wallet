@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    package="com.bankledger.safecold">
+    <!--android:sharedUserId="android.uid.system"-->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+
+    <!-- 蓝牙相关 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <!-- 指纹密码 -->
+    <application
+        android:name=".SafeColdApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.StartActivity"
+            android:theme="@style/TranslucentTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.AddWalletActivity" />
+        <activity
+            android:name=".ui.activity.MainWalletActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".ui.activity.SeedBackupActivity" />
+        <activity android:name=".ui.activity.SeedCheckActivity" />
+        <activity android:name=".ui.activity.SeedRestoreActivity" />
+        <activity android:name=".ui.activity.QrCodePageActivity" />
+        <activity android:name=".scan.ScanActivity" />
+        <activity android:name=".ui.activity.SettingActivity" />
+        <activity android:name=".ui.activity.SelectCurrencyActivity" />
+        <activity android:name=".ui.activity.HelpActivity" />
+        <activity android:name=".ui.activity.WalletManageActivity" />
+        <activity android:name=".ui.activity.MonitorAddressActivity" />
+        <activity
+            android:name=".ui.activity.SecuritySettingActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".ui.activity.CurrencyDetailActivity" />
+        <activity
+            android:name=".ui.activity.CurrencySendActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".ui.activity.CurrencyReceiveActivity" />
+        <activity android:name=".ui.activity.MyPublicKeyActivity" />
+        <activity android:name=".ui.activity.ResetPasswordActivity" />
+        <activity android:name=".ui.activity.MineCurrencyAddressDetailActivity" />
+        <activity android:name=".ui.activity.AddContactsAddressActivity" />
+        <activity android:name=".ui.activity.ContactsAddressDetailActivity" />
+        <activity android:name=".ui.activity.GestureLockActivity" />
+        <activity android:name=".ui.activity.SetGestureActivity" />
+        <activity
+            android:name=".ui.activity.PasswordUnlockActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".ui.activity.SelectLanguageActivity" />
+        <activity android:name=".ui.activity.CreateSeedActivity" />
+        <activity android:name=".ui.activity.CreatePasswordActivity" />
+        <activity android:name=".ui.activity.SelectContactsActivity" />
+        <activity android:name=".ui.activity.QrCodeContentActivity" />
+        <activity android:name=".ui.activity.SystemSettingActivity" />
+        <activity android:name=".ui.activity.SignMessageActivity" />
+        <activity
+            android:name=".ui.activity.VerifyMessageSignatureActivity"
+            android:launchMode="singleTask" />
+
+
+        <activity android:name=".ui.activity.AddressSearchActivity" />
+        <activity android:name=".ui.activity.WalletInfoActivity" />
+        <activity android:name=".ui.activity.SetWalletNameActivity" />
+        <activity android:name=".ui.activity.SelectTransactionFeeActivity" />
+        <activity android:name=".ui.activity.CurrencySendAffirmActivity" />
+        <activity android:name=".ui.activity.eth.ETHTokenDetailActivity" />
+        <activity android:name=".ui.activity.eth.ETHTokenSendActivity" />
+        <activity android:name=".ui.activity.eth.ETHTransactionFeeActivity" />
+        <activity android:name=".ui.activity.eth.MineETHTokenAddressDetailActivity" />
+        <activity android:name=".ui.activity.eth.ETHTokenSendAffirmActivity" />
+        <activity android:name=".ui.activity.WebViewActivity" />
+        <activity android:name=".ui.activity.CrashLogActivity" />
+        <activity android:name=".ui.activity.EncryptionChipTestActivity" />
+        <activity android:name=".ui.activity.AppUpgradeActivity" />
+        <activity android:name=".ui.activity.SelectAddressActivity" />
+
+        <!-- eos -->
+        <activity android:name=".ui.activity.eos.ChoiceAccountActivity" />
+        <activity android:name=".ui.activity.eos.NewAccountActivity" />
+        <activity android:name=".ui.activity.eos.EosDetailActivity" />
+        <activity android:name=".ui.activity.eos.EosSendActivity" />
+        <activity android:name=".ui.activity.eos.EosSendAffirmActivity" />
+        <activity android:name=".ui.activity.eos.MineEosAddressDetailActivity" />
+        <activity android:name=".ui.activity.eos.BuyRamActivity" />
+        <activity android:name=".ui.activity.eos.DelegatebwActivity" />
+
+        <activity
+            android:name=".ui.activity.UnlockActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/TranslucentTheme" />
+
+    </application>
+
+</manifest>

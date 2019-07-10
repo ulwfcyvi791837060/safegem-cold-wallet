@@ -1,0 +1,390 @@
+<resources>
+    <string name="app_name">SafeCold</string>
+    <string name="ok">OK</string>
+    <string name="hint_scan">Scan</string>
+    <string name="hint_find">Align QR Code</string>
+    <string name="hint_camera_framework_bug">Sorry, there is a problem with the camera and the app does not have permission to access the camera.</string>
+        
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="tip">Prompt</string>
+    <string name="complete">Complete</string>
+    <string name="check_all">Select All</string>
+    <string name="all_dont_check">Not Selected</string>
+    <string name="not_data">No More Data...</string>
+        
+    <string name="loadmore_loading">Loading</string>
+    <string name="loadmore_footer_end">This is the bottom</string>
+    <string name="loadmore_network_error">Network error, click to Retry</string>
+        
+    <string name="tab_asset">Assets</string>
+    <string name="tab_address">Address Book</string>
+    <string name="tab_mine">My</string>
+        
+    <string name="wallet_manage">Wallet Management</string>
+    <string name="send_record">Send Record</string>
+    <string name="public_key_book">Public Key Book</string>
+    <string name="many_sign_deal">Multi-signature Transaction</string>
+    <string name="message_sign">Message Signature</string>
+    <string name="sign_message">Signed Message</string>
+    <string name="verify_message_sign">Verify Message Signature</string>
+    <string name="setting">Settings</string>
+    <string name="safe_upgrade">Secure Upgrade</string>
+    <string name="help">Help</string>
+    <string name="sign">Signature</string>
+        
+    <string name="security_setting">Security Settings</string>
+    <string name="system_setting">System Settings</string>
+    <string name="restore_factory">Restore Factory Settings</string>
+    <string name="restore_factory_warn">Resetting the factory settings will erase all data in your wallet, please make sure you have backed up your wallet. Confirm reset?</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="safegem_modify">Hot End Bluetooth</string>
+    <string name="fingerprint_setting">Fingerprint Settings</string>
+    <string name="gesture_setting">Gesture Settings</string>
+    <string name="input_message">Message To Be Signed</string>
+    <string name="original_message">Original Message</string>
+    <string name="input_original_message">Please enter the original message</string>
+    <string name="signed_message">Signed Message</string>
+    <string name="input_signed_message">Please enter the signed message</string>
+    <string name="verify">Verify</string>
+    <string name="verify_success">Message verification success</string>
+    <string name="verify_fail">Message verification failed</string>
+        
+    <string name="select_currency">Select Currency</string>
+    <string name="input_keyword_hint">Enter Keyword</string>
+    <string name="all">All</string>
+        
+    <string name="input_seed_word">Please enter the seed password of your backup in order.</string>
+    <string name="show_seed_qr_code">Display seed QR code</string>
+    <string name="check_seed">Verify Seed Password</string>
+    <string name="check_seed_error">Seed password verification failed. Please try again.</string>
+        
+    <string name="change_password">Modify Password</string>
+    <string name="my_public_key">My Public Key</string>
+    <string name="backups_seed">Backup Seed Password</string>
+    <string name="seed_password">Seed Password</string>
+    <string name="wallet_info">Bind Wallet</string>
+        
+    <string name="pay_to">Pay To: %s</string>
+    <string name="hint_address_remark">Address Remark</string>
+    <string name="payee_address">Payee Wallet Address</string>
+    <string name="select_payee_address">Please select the payee wallet address.</string>
+    <string name="money">Amount</string>
+    <string name="input_money">Please enter the transfer amount.</string>
+    <string name="input_money_limit">Transfer amount must be greater than %s</string>
+    <string name="not_sufficient_funds_title">Insufficient Balance</string>
+    <string name="not_sufficient_funds">The current %s balance is insufficient to pay for the transaction. If the balance is not synced, try syncing the balance from the hot wallet first.</string>
+    <string name="not_sufficient_funds2">Exceeds your %s balance after accounting for transaction fees</string>
+    <string name="transaction_size_failed">Transaction construction failed with transaction size exceeding the upper limit.</string>
+    <string name="amount_is_too_small">The amount is too small to be paid.</string>
+    <string name="unknown_abnormal">Unknown Error</string>
+    <string name="remark">Remarks</string>
+    <string name="next_step">Next</string>
+    <string name="last_step">Last</string>
+
+    <string name="refresh_balance">Update Balance</string>
+    <string name="sync">Sync</string>
+    <string name="synchronous_balance">Balance has been synced</string>
+    <string name="synchronous_balance_err">Not This Wallet\'s Balance Information</string>
+    <string name="view_details">View Details ></string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+        
+    <string name="step_1">1</string>
+    <string name="step_2">2</string>
+        
+    <string name="receive_amount">Receiving Amount</string>
+        
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="submit_password">Confirm New Password</string>
+    <string name="remind_forget_password">Forgot password, you can import the mnemonic words to reset the password,</string>
+    <string name="forget_password">Forgot password</string>
+    <string name="forget_password_link">Forgot Your Password?</string>
+    <string name="hint_forget_password">Unfortunately, forgetting the password means that the wallet is lost. Clicking on the confirmation will clear wallet data. You can resynchronize the wallet data by restoring the wallet, or you can recreate a new wallet.</string>
+    <string name="import_seed"><u>Immediately import</u></string>
+    <string name="old_password_error">The old password is incorrect, please check again.</string>
+    <string name="reset_success">The password was successfully modified.</string>
+    <string name="hint_old_password">Please enter the old password.</string>
+    <string name="hint_new_password">Please enter a new password.</string>
+    <string name="hint_submit_password">Please confirm the new password.</string>
+    <string name="hint_new_password_error">The new password is inconsistent.</string>
+    <string name="hint_password_error">The old and new passwords cannot be the same.</string>
+    <string name="hint_input_password">Please enter your wallet password.</string>
+    <string name="submit_input_password">Please enter the confirmation wallet password.</string>
+    <string name="input_password_err">The wallet password is inconsistent.</string>
+    <string name="input_password_length_min">The password must be at least 12 characters long.</string>
+    <string name="input_password_format_error">The password format is incorrect.</string>
+    <string name="input_password_contain">The password must contain the letter case and number.</string>
+        
+    <string name="password_error">The password is incorrect, please check.</string>
+    <string name="address_err">Invalid address, please check.</string>
+    <string name="wallet_scan">Scan Code</string>
+    <string name="wallet_receive">Receive</string>
+    <string name="wallet_transfer">Transfer</string>
+    <string name="hide_zero">Hide 0 Balance</string>
+    <string name="search">Search</string>
+        
+    <string name="scan_qr_code">Scan Hot Wallet QR Code</string>
+    <string name="my_address">My Address</string>
+    <string name="my_address_title">My Address -%s</string>
+    <string name="my_address_select">Select Address -%s</string>
+    <string name="contact_address">Contact Address</string>
+    <string name="currency_address_count">%d Addresses</string>
+    <string name="no_alias">No Comments</string>
+    <string name="monitor">Monitor</string>
+    <string name="priv_key">Private Key</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="add_receiver">Add Payee</string>
+    <string name="select_fee">Select Transaction Fee</string>
+    <string name="add_address">Add Address</string>
+    <string name="edit_alias">Edit Notes</string>
+
+    <string name="wallet_address">Wallet Address</string>
+    <string name="exist_address">This address has been saved and cannot be added repeatedly.</string>
+    <string name="exist_address2">This address is the wallet address and cannot be added.</string>
+    <string name="hint_select_currency">Please select the currency first.</string>
+    <string name="input_address">Please enter the wallet address.</string>
+    <string name="select_address">Please select a currency.</string>
+    <string name="please_add_receiver">Please add payee</string>
+    <string name="sign_address">Signature Address</string>
+    <string name="input_sign_address">Please enter the signature address</string>
+        
+    <string name="contact_address_detail">Contact Address -%s</string>
+    <string name="resend">Send Again</string>
+    <string name="delete_contact">Delete Contacts</string>
+    <string name="submit_delete_contact">Confirm deletion of the contact.</string>
+    <string name="cant_delete">There is an unspent %s under this address and cannot be deleted.</string>
+        
+    <string name="input_password">Enter the wallet password</string>
+    <string name="password">Password</string>
+    <string name="hint_password">Please enter the wallet password</string>
+    <string name="hint_password2">Please confirm the wallet password</string>
+    <string name="max_hdaddress_count">You already have %d addresses and cannot continue adding.</string>
+    <string name="select_pay_address">Payment Address: %s</string>
+
+    <string name="export">Export</string>
+    <string name="export_qr_code">Export QR Code</string>
+    <string name="select_export_currency">Please select the monitoring currency</string>
+    <string name="previous_page">Previous Page</string>
+    <string name="next_page">Next Page</string>
+    <string name="scan_monitor">Please use the hot wallet app to scan the QR code and add monitoring.</string>
+    <string name="scan_send">Please use the hot wallet app to scan the QR code and send the transaction,please synchronize the balance in the asset after the transaction is completed.</string>
+    <string name="scan_hot">Please use the hot wallet app to scan the QR code</string>
+        
+    <string name="not_set">Not Set</string>
+    <string name="is_enabled">Enabled</string>
+    <string name="not_enabled">Not Enabled</string>
+    <string name="gesture_lock">Gesture Password Lock</string>
+    <string name="create_gesture">Create A Gesture Password</string>
+    <string name="set_gesture">Set Gesture Password</string>
+    <string name="create_gesture_explain">You can create a wallet unlock pattern so that others won\'t be able to open the wallet when they get your wallet.</string>
+    <string name="draw_gesture">Draw Unlock Pattern</string>
+    <string name="submit_gesture">Confirm the unlock pattern</string>
+    <string name="gesture_dot_number">Connect at least 4 points</string>
+    <string name="gesture_set_success">Gesture password is set successfully</string>
+    <string name="gesture_error">Is inconsistent with the last drawing pattern</string>
+    <string name="gesture_error2">Unlock Failed</string>
+    <string name="change_gesture">Modify Gesture Password</string>
+    <string name="gesture_error_hint">After 5 failures, you need to enter a password to unlock.</string>
+    <string name="gesture_error_hint2">Unable to unlock for five consecutive times, you need to enter a password to unlock.</string>
+    <string name="gesture_error_count">The password is incorrect, you can try %d more times.</string>
+    <string name="password_unlock">Password Unlock</string>
+    <string name="set_password">Set Wallet Password</string>
+        
+    <string name="language">Language</string>
+    <string name="chinese">简体中文</string>
+    <string name="chinese_tw">繁体中文</string>
+    <string name="english">English</string>
+        
+    <string name="account_create_fail">Account creation failed, please try again.</string>
+    <string name="account_creating">Account creation...</string>
+    <string name="change_seed">Change A Group</string>
+    <string name="recover">Restore</string>
+    <string name="seed_error">The wrong seed password, please re-enter.</string>
+        
+    <string name="restore_wallet">Restore Wallet</string>
+    <string name="create_wallet">Create New Wallet</string>
+    <string name="input_all_seed">Please enter the full seed password</string>
+    <string name="agree_hint">I have read and accepted the</string>
+    <string name="agree_content"><u>UPA</u></string>
+
+    <string name="max_once_send_count">At most %d recipients can be added and cannot continue adding.</string>
+    <string name="send_warn">Incorrect %s collection address</string>
+    <string name="send_warn2">Unrecognized payment address</string>
+    <string name="select_contacts">Select A Contact</string>
+        
+    <string name="scan_result">Scan Result</string>
+        
+    <string name="view_set">Display And Brightness</string>
+    <string name="fingerprint_set">Fingerprint</string>
+    <string name="language_set">Language</string>
+    <string name="date_set">Date And Time</string>
+    <string name="vol_set">Volume</string>
+        
+    <string name="no_fingerprint">No fingerprints are added, please add fingerprints to the system settings.</string>
+    <string name="fingerprint_error">The fingerprints do not match. Please try again.</string>
+    <string name="cant_send_self">The address %s you selected is your own wallet address and cannot be transferred.</string>
+
+    <!--Security Upgrade-->
+    <string name="cold_wallet_update">Cold Wallet Upgrade</string>
+    <string name="cold_wallet_exit">Confirm you need to quit upgrade？</string>
+    <string name="cold_wallet_opening_bluetooth">Opening bluetooth...</string>
+    <string name="cold_wallet_bluetooth_connected">Updating the cold wallet, please wait a moment...</string>
+    <string name="cold_wallet_bluetooth_disconnected">Bluetooth Disconnected</string>
+    <string name="cold_wallet_bluetooth_connection_failure">Bluetooth Disconnected</string>
+    <string name="cold_wallet_md5_not_correct">The latest version has not passed verification and cannot be upgraded. Please try again later!</string>
+    <string name="cold_wallet_safegem_scan">Please use SAFEGEM Android Hot Wallet to scan and upgrade</string>
+    <string name="cold_wallet_auto_update">Upgrading, will automatically restart for you later...</string>
+    <string name="cold_wallet_retry_update">Bluetooth connection has been disconnected. Please upgrade again</string>
+        
+    <!--Binding hot end device -->
+    <string name="bind_device_title_string">Hot End Device</string>
+    <string name="bind_device_add_string">Add hot end device</string>
+    <string name="bind_device_update_string">Modify the bound hot-end device</string>
+    <string name="bind_device_mac_tip_string">Mac Address:</string>
+        
+    <string name="set_wallet_name">Set The Wallet Name</string>
+    <string name="wallet_name">Wallet Name: %s</string>
+    <string name="wallet_name_title">Wallet Name</string>
+    <string name="wallet_number">Number: %s</string>
+    <string name="wallet_version_code">Version Number: %s</string>
+    <string name="wallet_version_name">Version Name: %s</string>
+    <string name="save_wallet_name_error">Failed to save the wallet name. Please try again</string>
+    <string name="wallet_name_hint">Please set a name for your wallet, in either Chinese or English, no longer than 12 characters. This cannot be changed after setting.</string>
+        
+    <string name="transaction_fee">Transaction Fee</string>
+    <string name="transaction_fee_unit">%s/KB</string>
+    <string name="min_transaction_fee">Minimum Rate: %s %s/KB</string>
+    <string name="default_transaction_fee"><u>Default</u></string>
+    <string name="save">Save</string>
+    <string name="input_transaction_fee">Please enter the transaction fee</string>
+    <string name="high_transaction_fee">%s Maximum transaction fee is: %s</string>
+    <string name="low_transaction_fee">Transaction fee cannot be lower than the minimum fee</string>
+    <string name="decimal_places_limit">Transaction fee cannot exceed %s decimals.</string>
+        
+    <string name="eth_gas_price">Custom Gas Price</string>
+    <string name="eth_gas_limit">Custom Gas Limit</string>
+        
+    <string name="eth_gas_price_hint">Please Set Gas Price</string>
+    <string name="eth_gas_limit_hint">Please Set Gas Limit</string>
+    <string name="eth_gas_limit_less_than_hint">Gas Limit no less than 21000</string>
+    <string name="eth_gas_greater_than_hint">Transaction fee should not exceed %s ETH</string>
+    <string name="eth_gas_price_key">Gas Price:</string>
+    <string name="eth_gas_limit_key">Gas Limit:</string>
+        
+    <string name="not_bind_device">Unbound Hot Wallet</string>
+    <string name="active_success">Activation Success</string>
+        
+    <string name="affirm_transaction_fee">Handling Fee:</string>
+    <string name="affirm_pay">Confirm Transfer</string>
+    <string name="pay_address">Address:</string>
+    <string name="pay_amount">Amount:</string>
+        
+    <string name="user_protocol">Using Permission Agreement</string>
+        
+    <string name="unidentifiable_qr_code">Unrecognized QR code</string>
+        
+    <string name="agree_protocol">Agree the Using Permission Agreement to use the wallet</string>
+    <string name="send_hint">Note: Please confirm that you have synchronized your balance before transferring.</string>
+    <string name="receive_hint">Note: Please synchronize the balance in the asset after the transaction is completed.</string>
+    <string name="select_sign_currency">Please select the signature currency</string>
+    <string name="input_sign_message">Please enter a signature message</string>
+
+    <string name="scan_sync_balance">Please open the hot end APP->Select the corresponding currency -> Update balance</string>
+    <string name="warn_save_seed">Note: If you are using this wallet for the first time, please create a wallet by writing and saving your seed password and how it to no one; if you already have a wallet, you can restore your wallet.</string>
+    <string name="add_wallet_hint">If you don\'t have a wallet account, please create a new wallet. If you already have a wallet, please restore your wallet.</string>
+    <string name="download_hot_wallet">Install Hot Wallet</string>
+    <string name="warn_backup_seed">Security Warning: Please keep it safe.</string>
+    <string name="password_rule">Upper/lower case letters + number combination, and the length is 12 to 32 characters.</string>
+    <string name="monitoring_account">Monitor Assets</string>
+    <string name="recover_hint">Please enter the seed password you backed up</string>
+    <string name="scan_seed">Scan the seed QR code</string>
+    <string name="input_wallet_name">Wallet name cannot be empty</string>
+
+    <string name="download_hot_wallet_hint">Please use your phone to scan the QR code to install the SafeGem hot wallet APP</string>
+    <string name="official_website">Official website</string>
+    <string name="official_wechat">Official WeChat</string>
+
+    <string name="time_calibration">Time calibration</string>
+    <string name="time_sync">Time has been calibrated</string>
+
+    <string name="send_limit">The transfer amount of each address for %s cannot be lower than: %s</string>
+
+    <string name="bind_wallet">Bind Wallet</string>
+    <string name="guide_hint">Scan the QR code with hot wallet app to complete the wallet binding. \n Click Next to complete monitoring cold wallet assets with hot wallet.</string>
+
+    <string name="hint_cold_wallet_update">Your cold wallet is detected to be upgradable. The wallet may not be available if it is not upgraded. Please upgrade first.</string>
+    <string name="hint_hot_wallet_update">Your hot wallet is detected to be upgradable. The wallet may not be available if it is not upgraded. Please upgrade first.</string>
+
+    <string name="confirm_continue">Confirm to proceed?</string>
+    <string name="warn">warn</string>
+
+    <string name="reset_password_error">Password change failed(ret = %s),please try again。</string>
+    <string name="create_wallet_error">Wallet creation failed(ret = %s),please try again。</string>
+
+    <string name="send_affirm_hint">Note: if the balance is insufficient, the transaction fee will be deducted from the transfer amount!</string>
+
+    <string name="max_fee">Max Transaction Fee:%s %s</string>
+
+    <string name="usdt_btc_series">USDT (BTC)</string>
+    <string name="usdt_eth_series">USDT (ETH)</string>
+
+    <string name="eos_look_pubkey">View the public key</string>
+    <string name="eos_account_updated">EOS account has been updated</string>
+    <string name="eos_qrcode_tips">This QR code is generated by the account and public key</string>
+    <string name="eos_create_account_tips">Once you have created an EOS public key, you can register an EOS account with that public key at the PO Hot Wallet app, and you can trade EOS after you complete your registration</string>
+    <string name="eos_reg_account_name">Registered an account name</string>
+    <string name="eos_account_name_tips">Please enter your account name</string>
+    <string name="eos_account_name_rule_tips">Account name must be 12 characters</string>
+    <string name="eos_account_name_rule">12 characters, support only number 1-5, letter A-Z, can not be modified after registration</string>
+    <string name="eos_owner_pubkey">Owner Public Key</string>
+    <string name="eos_active_pubkey">Active Public Key</string>
+    <string name="eos_owner_prikey">Owner private Key</string>
+    <string name="eos_active_prikey">Active Private Key</string>
+    <string name="eos_owner_prikey_tips">Please enter or scan the owner public key</string>
+    <string name="eos_active_prikey_tips">Please enter or scan the active private key</string>
+    <string name="eos_create_account">Create an account</string>
+    <string name="eos_create_scan_tips">Open the Hot Wallet app after creation, turn on sweep scan</string>
+    <string name="eos_import_account_tips">Import your previously registered EOS account owner private key and active private key, please take good care of it, PO does not get any of your private keys </string>
+    <string name="eos_import_account_name">Import account name</string>
+    <string name="eos_import_account_name_rule">Your account is made up of 12 characters, only support the number 1-5, composition of letter A-Z</string>
+    <string name="eos_import_scan_tips">Open the Hot Wallet app after exporting, open sweep scan check account</string>
+    <string name="eos_import_account">Export Account</string>
+    <string name="eos_sync_block_tips">Please synchronize the EOS block information at first</string>
+    <string name="eos_select_account">Please select a payee account</string>
+    <string name="eos_account">EOS account</string>
+    <string name="account_count">%d account</string>
+    <string name="eos_sync_code_err">Please scan the QR code of hot end EOS block information</string>
+    <string name="eos_account_disabled">The current wallet does not have an EOS account, please create or import an EOS account</string>
+    <string name="eos_sync_succ">Synchronization succeeded</string>
+    <string name="eos_first_create_account">Please create an EOS account first</string>
+    <string name="eos_ret_info_err">Unbound Hot Wallet</string>
+
+    <string name="eos_buy_ram">Buy Ram</string>
+    <string name="eos_delegatebw">Mortgage CPU、NET</string>
+    <string name="eos_buy_ram_tips">Enter the amount of buy ram</string>
+    <string name="eos_buy_ram_less_than">Buy ram must not be less than%sKB</string>
+    <string name="eos_define">Custom</string>
+    <string name="eos_confirm_buy">Confirm Buy</string>
+    <string name="eos_dele_cpu">Mortgage CPU</string>
+    <string name="eos_dele_net">Mortgage NET</string>
+    <string name="eos_input_amount">Enter EOS Number</string>
+    <string name="eos_invalid_amount">Invalid EOS amount</string>
+    <string name="eos_confrim_dele">Confirm mortgage</string>
+    <string name="eos_account_name_invalid">Invalid EOS account name</string>
+    <string name="eos_min_delegatebw_tips">Minimum mortgage 0.1 EOS</string>
+    <string name="eos_delegatebw_tips">Minimum mortgage 0.1 EOS</string>
+    <string name="eos_cant_send_self">You can\'t transfer to your EOS account</string>
+    <string name="scan_content">Scanning content</string>
+    <string name="copy_clipboard">Copy clipboard</string>
+    <string name="copy_success">Copy success</string>
+    <string name="eth_unsupport_token">Unsupported ERC20 token</string>
+    <string name="eos_unsupport_token">Unsupported EOS token</string>
+    <string name="contract_address">Contract Address: %s</string>
+    <string name="confirm_delete_token">Are you sure you want to delete the %s?</string>
+
+</resources>
