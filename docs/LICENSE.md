@@ -28,9 +28,6 @@ This license does not require your application to be GPL-compatible (ie: you are
 If you are not sure what license to use, or if you have any question about SAFEGEM licensing, please feel free to contact us.
 Please note: individual technical assistance or custom support is not included with Commercial License. If you are looking for Premium individual support (quick and guaranteed answer, custom feature development…), please contact us (additional fees apply).
 
-This entry was tagged licensing.
-
-
 
 # GNU GENERAL PUBLIC LICENSE
 # Version 3, 29 June 2007
